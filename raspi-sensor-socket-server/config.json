@@ -1,0 +1,17 @@
+{
+    "local_ip": "192.168.220.239",
+    "HTTP_server_Port": 8081,
+    "socket_server_Port": 8090,
+    "socket_client_Port": 8091,
+    "IN_port": 9081,
+    "OUT_port":9082,
+    "CMD_port":9083,
+    "HOST_IP":"0.0.0.0",
+    "SOCKET_EVENT":{
+        "CONNECTION":"connection",
+        "CONNECT":"connect",
+        "DISCONNECT":"disconnect",
+        "NEWMSG":"newmsg",
+        "BIND": "bind"
+    }
+}

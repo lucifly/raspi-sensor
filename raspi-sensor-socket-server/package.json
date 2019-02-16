@@ -1,0 +1,14 @@
+{
+    "name": "raspi-sensor-gateway-server",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+      "start": "node ./app.js raspiserver 9081 9082 9083"
+    }, 
+    "dependencies": {
+      "log4js": "~1.0.0",
+      "ws": "~1.0.0",
+      "socket.io":"~2.0.4"
+    }
+  }
+  
